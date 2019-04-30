@@ -1,9 +1,9 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="author" content="John Dean">
-<title>Global Temperatures</title>
+<meta name="author" content="Emily Ward">
+<title>The Food Pyramid</title>
 <style>
   body {display: flex; justify-content: center;}
   table, th, td {border: none;}
@@ -20,26 +20,23 @@
   td {
     background-color: mistyrose;
     text-align: center;
-  } 
-  .recentYears{color:red}
+  }
 </style>
 </head>
 
 <body>
 <table>
-  <caption>Average Annual Global Temperatures</caption>
+  <caption>The Food Pyramid</caption>
   <thead>
     <tr>
-      <th>Year</th>
-      <th>Temp<br>Rank</th>
+      <th>Food Group</th>
+      <th>2005-2010<br>Rank</th>
       <th>Avg<br>Temp (&deg;F)</th>
     </tr>
   </thead>
-  <tbody class="recentYears">
+  <tbody>
     <tr><th>2016</th><td>1</td><td>58.98</td></tr>
     <tr><th>2015</th><td>2</td><td>58.77</td></tr>
-	</tbody>
-	<tbody>
     <tr><th>2014</th><td>3</td><td>58.53</td></tr>
     <tr><th>2013</th><td>5</td><td>58.37</td></tr>
     <tr><th>2012</th><td>9</td><td>58.33</td></tr>
